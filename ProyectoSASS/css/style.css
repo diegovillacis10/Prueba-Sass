@@ -1,0 +1,46 @@
+/* line 2, ../scss/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 8, ../scss/style.scss */
+nav li {
+  display: inline-block;
+}
+/* line 10, ../scss/style.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/* line 25, ../scss/style.scss */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 27, ../scss/style.scss */
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/* line 33, ../scss/style.scss */
+.success {
+  border-color: green;
+}
+
+/* line 38, ../scss/style.scss */
+.error {
+  border-color: red;
+}
+
+/* line 43, ../scss/style.scss */
+.warning {
+  border-color: yellow;
+}
